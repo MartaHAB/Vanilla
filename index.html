@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>¿Va a llover?</title>
+
+    <link rel="stylesheet" href="css/style.css"/>
+     
+</head>
+<body>
+    <header>
+        <img src="img/logo.svg" alt="¿Va a llover?" width="80"/>
+    </header>
+
+    <section class="panel permission hidden">
+        <p>Para decirte si va a llover necesito que me des permiso para saber tu localización</p>
+        <button class="cta">OK!</button>
+    </section>
+    <section class="panel positive hidden">
+        <h1>☂️</h1>
+        <p>Este es el <strong>texto que aparecerá</strong>  si llueve</p>
+    </section>
+
+    <section class="panel negative hidden">
+        <h1>🌂</h1>
+        <p>Este es el texto que aparecerá si no llueve</p>
+    </section>
+
+    <section class="panel error hidden">
+        <h1>😬</h1>
+        <p>Este es el texto que aparece si hay un error</p>
+        <a href="/" class="cta">Intentarlo de nuevo</a>
+    </section>
+
+    <script src="js/main.js"></script>  
+   
+</body>
+</html>
